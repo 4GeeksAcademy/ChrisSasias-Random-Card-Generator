@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  border: none;
+}
+body {
+  background-color: rgb(2, 22, 2);
+}
+.cardHeader {
+  height: 870px;
+  background-color: rgb(255, 255, 255);
+  background-color: rgb(86, 132, 86);
+}
+
+.cardCenter {
+  height: 230px;
+  background-color: rgb(255, 255, 255);
+}
+
+.cardTop {
+  margin-left: 26px;
+  height: 80px;
+  font-size: 4em;
+}
+
+.cardButtom {
+  border-top: none;
+  font-size: 4em;
+  transform: rotate(180deg);
+  height: 80px;
+}
+
+.cardFooter {
+  border-top: none;
+  font-size: 4em;
+  transform: rotate(180deg);
+}
+
+#TopCard {
+  background-color: rgb(65, 65, 65);
+}
+#buttom:hover {
+  cursor: pointer;
+  border-radius: 1px;
+}
